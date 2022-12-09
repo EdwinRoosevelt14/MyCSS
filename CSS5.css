@@ -1,0 +1,38 @@
+@media (min-width:1000px)
+{
+body{
+    background-color: lawngreen;
+    
+}
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+@media (max-width:1500px)
+{
+body{
+    background-color: pink;
+    color: gold;
+}
+h1:hover{
+    font-size: 50px;
+}
+
+}
+
+}
+h1::after{
+
+    content: "I have added this text through css" url(/black-marble-patterned-texture-background-marble-thailand-abstract-natural-marble-black-white-design.jpg);
+    background-color: fuchsia;
+    color: salmon;
+
+}
+p::after{
+    content: "this is done through css";
+}
+h1::before{
+    content: "before heading one";
+    background-color: khaki;
+}

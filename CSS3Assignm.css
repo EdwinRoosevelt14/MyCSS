@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    border: 1px solid white;
+    padding: 0px;
+  }
+  nav a{
+    padding: 15px;
+  }
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}  
+body{
+    background-image: url(/3953492.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+nav{
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+nav a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: none;
+  }
+  
+  /* Style the navigation menu links */
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    
+  }
+
+  /* Style the submenu (hidden by default) */
+  .submenu {
+    display: none;
+  }
+  
+  /* Style the "hover" class to highlight links on hover */
+  li:hover .submenu {
+    display: block;
+  }
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  /* Style the image */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    image-rendering: auto;
+    
+
+} 

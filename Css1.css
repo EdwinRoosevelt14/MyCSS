@@ -1,0 +1,35 @@
+h1{
+    color: red;
+    text-align: center;
+}
+div{
+
+    color: pink;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: blueviolet;
+    text-align: center;
+}
+h2{
+    color: orangered;
+    text-align: center;
+}
+#rgb{
+    color: rgb(0, 70, 100);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+#hex{
+    color: pink;
+    font-family: fantasy;
+    font-size: 45px;
+}
+#hsl{
+    color: hsl(360, 50%, 50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-variant: small-caps;
+}
